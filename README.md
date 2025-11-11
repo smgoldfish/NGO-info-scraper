@@ -33,3 +33,20 @@ This helps us **learn from failures**, avoid repeating mistakes, and build a rob
 ---
 
 ## Folder Structure
+repo/
+├── README.md               # Overview of the repo, setup instructions, and how to use the versioning system
+├── versions/               # Main directory for tracking code iterations
+│   ├── v1/                 # Folder for version 1 (name sequentially like v1, v2, etc.)
+│   │   ├── script.py       # The code file for this version (copy the full script here)
+│   │   ├── output.json     # Output/results from running this version (e.g., scraped data or logs)
+│   │   └── notes.md        # Markdown file with details: approach used, what worked, what was wrong/fixed, and any learnings
+│   ├── v2/                 # Folder for version 2
+│   │   ├── script.py
+│   │   ├── output.json
+│   │   └── notes.md
+│   ├── v3/                 # And so on for each new version...
+│   │   ├── script.py
+│   │   ├── output.json
+│   │   └── notes.md
+│   └── ...                 # Add new subfolders as you iterate
+└── utils/                  # Optional: Shared utilities or helpers that don't change per version (e.g., common functions or requirements.txt)
