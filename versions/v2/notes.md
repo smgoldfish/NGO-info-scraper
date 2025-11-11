@@ -1,5 +1,20 @@
 ## v3 – Playwright + JSON-LD + PDF Intelligence
 
+## Approach
+v3 makes the scraper **smarter and faster** by understanding **how modern websites actually store data**.
+
+### Core Upgrades
+1. **Playwright** → Replaces Selenium  
+   - Faster, auto-waits for content  
+   - Headless Chrome/Firefox  
+   - `pip install playwright && playwright install`
+
+2. **JSON-LD Parsing** → Reads `schema.org` data  
+   ```html
+   <script type="application/ld+json">
+   { "foundingDate": "1994", "name": "Naz Foundation" }
+   </script>
+
 ### New Superpowers (Simple Terms)
 
 | Feature | What It Does | Example Fix |
