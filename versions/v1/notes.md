@@ -42,7 +42,7 @@ The v1 scraper is designed to work on **real-world NGO sites** that hide data on
 | **aaina.org.in** | `fields_of_work` = **huge list of navigation items** | The keyword “Our Work” is used for the **menu**, not a program list. |
 | **All sites** | `operational_areas` often empty or incomplete | Only hard-coded country names are recognized; many NGOs list **states** or **city names**. |
 
-### Fixes & Next Steps (v3 roadmap)
+### Fixes & Next Steps (v2 roadmap)
 
 | # | Improvement | Implementation hint |
 |---|-------------|---------------------|
