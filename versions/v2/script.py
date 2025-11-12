@@ -170,7 +170,7 @@ def extract_fields_of_work(soup, custom=None):
     # Look for program lists
     keywords = ['program', 'initiative', 'project', 'work', 'focus']
     for kw in keywords:
-        sec = soup.find(text=re.compile(kw, re.I))
+        sec = soup.find(string=re.compile(kw, re.I))
         if sec:
             parent = sec.find_parent(['div', 'section', 'article'])
             if parent:
