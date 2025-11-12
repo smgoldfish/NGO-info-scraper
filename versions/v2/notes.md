@@ -1,7 +1,7 @@
 ## v2 – Playwright + JSON-LD + PDF Intelligence
 
 ## Approach
-v3 makes the scraper **smarter and faster** by understanding **how modern websites actually store data**.
+v2 makes the scraper **smarter and faster** by understanding **how modern websites actually store data**.
 
 ### Core Upgrades
 1. **Playwright** → Replaces Selenium  
