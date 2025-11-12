@@ -1,1 +1,52 @@
+{
+    "ngo_name": "Naz Foundation",
+    "year_founded": "19",
+    "fields_of_work": [
+        "Care and Support Services",
+        "Young People\u2019s Initiative",
+        "LGBTQIA+ Initiative",
+        "Partnerships Building",
+        "Advocacy",
+        "Training & Awareness"
+    ],
+    "operational_areas": [],
+    "contact_info": {},
+    "website_url": "https://nazindia.org"
+}
 
+{
+    "ngo_name": "Akanksha",
+    "year_founded": null,
+    "fields_of_work": [
+        "",
+        "",
+        "",
+        ""
+    ],
+    "operational_areas": [
+        "Mumbai",
+        "Pune"
+    ],
+    "contact_info": {
+        "phone": "2223700253"
+    },
+    "website_url": "https://akanksha.org"
+}
+
+{
+    "ngo_name": "Welcome to aaina :: (aaina.org.in) 25 YEARS OF AAINA",
+    "year_founded": "19",
+    "fields_of_work": [
+        "Plot-70/3530 (Ground floor), Behind Hotel Mayfair,\nBhubaneswar, Odisha, India\nPin : 751013",
+        "91+674-2360630, 91+674-3591071",
+        "info@aaina.org.in"
+    ],
+    "operational_areas": [
+        "Odisha"
+    ],
+    "contact_info": {
+        "email": "info@aaina.org.in",
+        "phone": "06742360630"
+    },
+    "website_url": "https://aaina.org.in"
+}
