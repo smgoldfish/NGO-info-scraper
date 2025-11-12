@@ -240,12 +240,19 @@ def parse_ngo(url, use_playwright=False, customs=None):
         time.sleep(1)
         sub_soup = fetch_page(sub_url, use_playwright)
         if sub_soup:
+            # Update year
             if not data['year_founded']:
-                data['year_founded'] = extract_year_founded(sub_soup)
+                data['year_founded'] = extract_year_founded(sub_soup, custom.get('year_founded'))
+            
+            # Update fields of work
             if not data['fields_of_work']:
-                data['fields_of_work'] = extract_fields_of_work(sub_soup)
-            if not data['contact_info']:
-                data['contact_info'] = extract_contact
+                data['fields_of_work'] = extract_fields_of_work(sub_soup, custom.get('fields_of_work'))
+            
+            # Update contact info
+            if not data['contact_info'] or not data['contact_info'].get('email'):
+                new_contact = extract_contact_info(sub_soup, custom.get('contact_info'))
+                if new_contact:
+                    data['contact_info'].update(new_contact)
 
     # 4. PDFs
     for pdf_url in pdfs[:1]:
