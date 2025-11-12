@@ -1,4 +1,4 @@
-## v3 – Playwright + JSON-LD + PDF Intelligence
+## v2 – Playwright + JSON-LD + PDF Intelligence
 
 ## Approach
 v3 makes the scraper **smarter and faster** by understanding **how modern websites actually store data**.
