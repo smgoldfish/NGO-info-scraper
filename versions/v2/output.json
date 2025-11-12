@@ -23,8 +23,68 @@
         "India"
     ],
     "contact_info": {
-        "phone": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+        "phone": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+        "email": "info@nazindia.org"
     },
     "website_url": "https://nazindia.org"
 }
 
+{
+    "ngo_name": "Akanksha",
+    "year_founded": null,
+    "fields_of_work": [],
+    "operational_areas": [
+        "Mumbai",
+        "Pune"
+    ],
+    "contact_info": null,
+    "website_url": "https://akanksha.org"
+}
+
+{
+    "ngo_name": "Welcome to aaina :: (aaina.org.in) 25 YEARS OF AAINA",
+    "year_founded": "20",
+    "fields_of_work": [
+        "Home",
+        "About UsAbout UsOur TeamReports & Documents",
+        "About Us",
+        "Our Team",
+        "Reports & Documents",
+        "Our WorkOur ProjectsOur CampaignsTarget GroupPersons with DisabilitiesChildrenWomenAdolescentsThematic AreasInclusionChild RightsGender EqualityDRRM & Climate ChangeLivelihood Support ServicesWASH + MHHMTraining & ResearchNetworking & Promotion",
+        "Our Projects",
+        "Our Campaigns",
+        "Target GroupPersons with DisabilitiesChildrenWomenAdolescents",
+        "Persons with Disabilities",
+        "Children",
+        "Women",
+        "Adolescents",
+        "Thematic AreasInclusionChild RightsGender EqualityDRRM & Climate ChangeLivelihood Support ServicesWASH + MHHMTraining & ResearchNetworking & Promotion",
+        "Inclusion",
+        "Child Rights",
+        "Gender Equality",
+        "DRRM & Climate Change",
+        "Livelihood Support Services",
+        "WASH + MHHM",
+        "Training & Research",
+        "Networking & Promotion",
+        "News & Events",
+        "ResourcesPublicationsCommunications MaterialsMediaCase Studies",
+        "Publications",
+        "Communications Materials",
+        "Media",
+        "Case Studies",
+        "Gallery",
+        "Contact Us"
+    ],
+    "operational_areas": [
+        "odisha",
+        "India",
+        "Odisha",
+        "Asia"
+    ],
+    "contact_info": {
+        "email": "info@aaina.org.in",
+        "phone": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"
+    },
+    "website_url": "https://aaina.org.in"
+}
